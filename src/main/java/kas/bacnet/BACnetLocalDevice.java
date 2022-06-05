@@ -76,7 +76,14 @@ public class BACnetLocalDevice implements Runnable {
                 JSONObject point = (JSONObject) points.get(pKey);
                 //long longInstanceNumber = (long) point.get("HELVAR_GROUP");
                 //int instanceNumber = (int) longInstanceNumber;
-                int instanceNumber = (int) point.get("HELVAR_GROUP");
+                int instanceNumber;
+                try {
+                    instanceNumber = (int) point.get("HELVAR_GROUP");
+                } catch (ClassCastException cce) {
+                    long longInstanceNumber = (long) point.get("HELVAR_GROUP");
+                    instanceNumber = (int) longInstanceNumber;
+                }
+
 
                 String description = String.format("%s / %s / %s / %s",
                         controller.get("LIGHT_PANEL"),

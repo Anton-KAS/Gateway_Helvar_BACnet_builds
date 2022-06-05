@@ -1,98 +1,98 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="kas.helvar.ReceivedObjectProcessorTest" tests="92" skipped="0" failures="0" errors="0" timestamp="2022-06-05T20:47:01" hostname="KAS-DESKTOP" time="0.924">
+<testsuite name="kas.helvar.ReceivedObjectProcessorTest" tests="92" skipped="0" failures="0" errors="0" timestamp="2022-06-05T21:04:12" hostname="KAS-DESKTOP" time="0.732">
   <properties/>
-  <testcase name="[1] &gt;V:1,C:11,G:17,K:1,B:1,S:5,F:90#, 192.168.1.1, 17, av, 5.0, 1, true" classname="kas.helvar.ReceivedObjectProcessorTest" time="0.625"/>
+  <testcase name="[1] &gt;V:1,C:11,G:17,K:1,B:1,S:5,F:90#, 192.168.1.1, 17, av, 5.0, 1, true" classname="kas.helvar.ReceivedObjectProcessorTest" time="0.497"/>
   <testcase name="[2] &gt;V:1,C:11,G:17,K:1,B:2,S:5,F:90#, 192.168.1.1, 0, null, 0.0, 0, false" classname="kas.helvar.ReceivedObjectProcessorTest" time="0.002"/>
-  <testcase name="[3] &gt;V:1,C:12,B:7,S:4,F:1,@1.2.3.4#, 192.168.1.1, 0, null, 0.0, 0, false" classname="kas.helvar.ReceivedObjectProcessorTest" time="0.001"/>
-  <testcase name="[4] &gt;V:1,C:13,G:17,L:60,F:90#, 192.168.1.1, 17, ao, 60.0, 1, true" classname="kas.helvar.ReceivedObjectProcessorTest" time="0.002"/>
-  <testcase name="[5] &gt;V:1,C:14,L:60,F:90,@1.2.3.4#, 192.168.1.1, 0, null, 0.0, 0, false" classname="kas.helvar.ReceivedObjectProcessorTest" time="0.001"/>
-  <testcase name="[6] &gt;V:1,C:15,P:72,G:17,B:8,S:16,F:90#, 192.168.1.1, 0, null, 0.0, 0, false" classname="kas.helvar.ReceivedObjectProcessorTest" time="0.002"/>
-  <testcase name="[7] &gt;V:1,C:16,P:72,F:90,@1.2.3.4#, 192.168.1.1, 0, null, 0.0, 0, false" classname="kas.helvar.ReceivedObjectProcessorTest" time="0.001"/>
-  <testcase name="[8] &gt;V:1,C:17,P:5,G:17,B:8,S:16,F:90#, 192.168.1.1, 0, null, 0.0, 0, false" classname="kas.helvar.ReceivedObjectProcessorTest" time="0.001"/>
-  <testcase name="[9] &gt;V:1,C:18,P:5,F:90,@1.2.3.4#, 192.168.1.1, 0, null, 0.0, 0, false" classname="kas.helvar.ReceivedObjectProcessorTest" time="0.001"/>
-  <testcase name="[10] &gt;V:1,C:19,G:56#, 192.168.1.1, 0, null, 0.0, 0, false" classname="kas.helvar.ReceivedObjectProcessorTest" time="0.001"/>
-  <testcase name="[11] &gt;V:1,C:20,@8.67.2.37#, 192.168.1.1, 0, null, 0.0, 0, false" classname="kas.helvar.ReceivedObjectProcessorTest" time="0.001"/>
-  <testcase name="[12] &gt;V:1,C:21,G:56#, 192.168.1.1, 0, null, 0.0, 0, false" classname="kas.helvar.ReceivedObjectProcessorTest" time="0.002"/>
-  <testcase name="[13] &gt;V:1,C:22,@8.67.2.37#, 192.168.1.1, 0, null, 0.0, 0, false" classname="kas.helvar.ReceivedObjectProcessorTest" time="0.001"/>
-  <testcase name="[14] &gt;V:1,C:23,G:56#, 192.168.1.1, 0, null, 0.0, 0, false" classname="kas.helvar.ReceivedObjectProcessorTest" time="0.001"/>
-  <testcase name="[15] &gt;V:1,C:24,@8.67.2.37#, 192.168.1.1, 0, null, 0.0, 0, false" classname="kas.helvar.ReceivedObjectProcessorTest" time="0.005"/>
-  <testcase name="[16] &gt;V:1,C:101#, 192.168.1.1, 0, null, 0.0, 0, false" classname="kas.helvar.ReceivedObjectProcessorTest" time="0.005"/>
-  <testcase name="[17] ?V:1,C:101=1,2,253#, 192.168.1.1, 0, null, 0.0, 0, false" classname="kas.helvar.ReceivedObjectProcessorTest" time="0.004"/>
-  <testcase name="[18] &gt;V:1,C:102,@253#, 192.168.1.1, 0, null, 0.0, 0, false" classname="kas.helvar.ReceivedObjectProcessorTest" time="0.001"/>
-  <testcase name="[19] ?V:1,C:102,@253=252,253,254#, 192.168.1.1, 0, null, 0.0, 0, false" classname="kas.helvar.ReceivedObjectProcessorTest" time="0.004"/>
+  <testcase name="[3] &gt;V:1,C:12,B:7,S:4,F:1,@1.2.3.4#, 192.168.1.1, 0, null, 0.0, 0, false" classname="kas.helvar.ReceivedObjectProcessorTest" time="0.002"/>
+  <testcase name="[4] &gt;V:1,C:13,G:17,L:60,F:90#, 192.168.1.1, 17, ao, 60.0, 1, true" classname="kas.helvar.ReceivedObjectProcessorTest" time="0.005"/>
+  <testcase name="[5] &gt;V:1,C:14,L:60,F:90,@1.2.3.4#, 192.168.1.1, 0, null, 0.0, 0, false" classname="kas.helvar.ReceivedObjectProcessorTest" time="0.005"/>
+  <testcase name="[6] &gt;V:1,C:15,P:72,G:17,B:8,S:16,F:90#, 192.168.1.1, 0, null, 0.0, 0, false" classname="kas.helvar.ReceivedObjectProcessorTest" time="0.003"/>
+  <testcase name="[7] &gt;V:1,C:16,P:72,F:90,@1.2.3.4#, 192.168.1.1, 0, null, 0.0, 0, false" classname="kas.helvar.ReceivedObjectProcessorTest" time="0.002"/>
+  <testcase name="[8] &gt;V:1,C:17,P:5,G:17,B:8,S:16,F:90#, 192.168.1.1, 0, null, 0.0, 0, false" classname="kas.helvar.ReceivedObjectProcessorTest" time="0.002"/>
+  <testcase name="[9] &gt;V:1,C:18,P:5,F:90,@1.2.3.4#, 192.168.1.1, 0, null, 0.0, 0, false" classname="kas.helvar.ReceivedObjectProcessorTest" time="0.002"/>
+  <testcase name="[10] &gt;V:1,C:19,G:56#, 192.168.1.1, 0, null, 0.0, 0, false" classname="kas.helvar.ReceivedObjectProcessorTest" time="0.002"/>
+  <testcase name="[11] &gt;V:1,C:20,@8.67.2.37#, 192.168.1.1, 0, null, 0.0, 0, false" classname="kas.helvar.ReceivedObjectProcessorTest" time="0.002"/>
+  <testcase name="[12] &gt;V:1,C:21,G:56#, 192.168.1.1, 0, null, 0.0, 0, false" classname="kas.helvar.ReceivedObjectProcessorTest" time="0.001"/>
+  <testcase name="[13] &gt;V:1,C:22,@8.67.2.37#, 192.168.1.1, 0, null, 0.0, 0, false" classname="kas.helvar.ReceivedObjectProcessorTest" time="0.002"/>
+  <testcase name="[14] &gt;V:1,C:23,G:56#, 192.168.1.1, 0, null, 0.0, 0, false" classname="kas.helvar.ReceivedObjectProcessorTest" time="0.002"/>
+  <testcase name="[15] &gt;V:1,C:24,@8.67.2.37#, 192.168.1.1, 0, null, 0.0, 0, false" classname="kas.helvar.ReceivedObjectProcessorTest" time="0.002"/>
+  <testcase name="[16] &gt;V:1,C:101#, 192.168.1.1, 0, null, 0.0, 0, false" classname="kas.helvar.ReceivedObjectProcessorTest" time="0.002"/>
+  <testcase name="[17] ?V:1,C:101=1,2,253#, 192.168.1.1, 0, null, 0.0, 0, false" classname="kas.helvar.ReceivedObjectProcessorTest" time="0.002"/>
+  <testcase name="[18] &gt;V:1,C:102,@253#, 192.168.1.1, 0, null, 0.0, 0, false" classname="kas.helvar.ReceivedObjectProcessorTest" time="0.002"/>
+  <testcase name="[19] ?V:1,C:102,@253=252,253,254#, 192.168.1.1, 0, null, 0.0, 0, false" classname="kas.helvar.ReceivedObjectProcessorTest" time="0.002"/>
   <testcase name="[20] &gt;V:1,C:103,G:5,B:1#, 192.168.1.1, 5, null, 0.0, 0, false" classname="kas.helvar.ReceivedObjectProcessorTest" time="0.002"/>
-  <testcase name="[21] &gt;V:1,C:103,G:5,B:2#, 192.168.1.1, 5, null, 0.0, 0, false" classname="kas.helvar.ReceivedObjectProcessorTest" time="0.003"/>
-  <testcase name="[22] ?V:1,C:103,G:5,B:1=4#, 192.168.1.1, 5, av, 4.0, 1, true" classname="kas.helvar.ReceivedObjectProcessorTest" time="0.006"/>
-  <testcase name="[23] ?V:1,C:103,G:5,B:2=4#, 192.168.1.1, 0, null, 0.0, 0, false" classname="kas.helvar.ReceivedObjectProcessorTest" time="0.003"/>
-  <testcase name="[24] &gt;V:1,C:104,@2.2.1.1#, 192.168.1.1, 0, null, 0.0, 0, false" classname="kas.helvar.ReceivedObjectProcessorTest" time="0.003"/>
-  <testcase name="[25] ?V:1,C:104,@2.2.1.1=1050626#, 192.168.1.1, 0, null, 0.0, 0, false" classname="kas.helvar.ReceivedObjectProcessorTest" time="0.002"/>
-  <testcase name="[26] &gt;&gt;V:1,C:105,G:5#, 192.168.1.1, 0, null, 0.0, 0, false" classname="kas.helvar.ReceivedObjectProcessorTest" time="0.002"/>
-  <testcase name="[27] ?V:1,C:105,G:5=Group 5#, 192.168.1.1, 0, null, 0.0, 0, false" classname="kas.helvar.ReceivedObjectProcessorTest" time="0.003"/>
-  <testcase name="[28] &gt;V:1,C:106,@2.2.1.1#, 192.168.1.1, 0, null, 0.0, 0, false" classname="kas.helvar.ReceivedObjectProcessorTest" time="0.003"/>
-  <testcase name="[29] ?V:1,C:106,@2.2.1.1=Ballast#, 192.168.1.1, 0, null, 0.0, 0, false" classname="kas.helvar.ReceivedObjectProcessorTest" time="0.004"/>
-  <testcase name="[30] &gt;V:1,C:110,@2.2.1.1#, 192.168.1.1, 0, null, 0.0, 0, false" classname="kas.helvar.ReceivedObjectProcessorTest" time="0.003"/>
+  <testcase name="[21] &gt;V:1,C:103,G:5,B:2#, 192.168.1.1, 5, null, 0.0, 0, false" classname="kas.helvar.ReceivedObjectProcessorTest" time="0.002"/>
+  <testcase name="[22] ?V:1,C:103,G:5,B:1=4#, 192.168.1.1, 5, av, 4.0, 1, true" classname="kas.helvar.ReceivedObjectProcessorTest" time="0.003"/>
+  <testcase name="[23] ?V:1,C:103,G:5,B:2=4#, 192.168.1.1, 0, null, 0.0, 0, false" classname="kas.helvar.ReceivedObjectProcessorTest" time="0.002"/>
+  <testcase name="[24] &gt;V:1,C:104,@2.2.1.1#, 192.168.1.1, 0, null, 0.0, 0, false" classname="kas.helvar.ReceivedObjectProcessorTest" time="0.001"/>
+  <testcase name="[25] ?V:1,C:104,@2.2.1.1=1050626#, 192.168.1.1, 0, null, 0.0, 0, false" classname="kas.helvar.ReceivedObjectProcessorTest" time="0.001"/>
+  <testcase name="[26] &gt;&gt;V:1,C:105,G:5#, 192.168.1.1, 0, null, 0.0, 0, false" classname="kas.helvar.ReceivedObjectProcessorTest" time="0.001"/>
+  <testcase name="[27] ?V:1,C:105,G:5=Group 5#, 192.168.1.1, 0, null, 0.0, 0, false" classname="kas.helvar.ReceivedObjectProcessorTest" time="0.001"/>
+  <testcase name="[28] &gt;V:1,C:106,@2.2.1.1#, 192.168.1.1, 0, null, 0.0, 0, false" classname="kas.helvar.ReceivedObjectProcessorTest" time="0.001"/>
+  <testcase name="[29] ?V:1,C:106,@2.2.1.1=Ballast#, 192.168.1.1, 0, null, 0.0, 0, false" classname="kas.helvar.ReceivedObjectProcessorTest" time="0.002"/>
+  <testcase name="[30] &gt;V:1,C:110,@2.2.1.1#, 192.168.1.1, 0, null, 0.0, 0, false" classname="kas.helvar.ReceivedObjectProcessorTest" time="0.002"/>
   <testcase name="[31] ?V:1,C:110,@2.2.1.1=1#, 192.168.1.1, 0, null, 0.0, 0, false" classname="kas.helvar.ReceivedObjectProcessorTest" time="0.001"/>
-  <testcase name="[32] &gt;V:1,C:111,@1.1.2.58#, 192.168.1.1, 0, null, 0.0, 0, false" classname="kas.helvar.ReceivedObjectProcessorTest" time="0.004"/>
-  <testcase name="[33] ?V:1,C:111,@1.1.2.58=1#, 192.168.1.1, 0, null, 0.0, 0, false" classname="kas.helvar.ReceivedObjectProcessorTest" time="0.003"/>
+  <testcase name="[32] &gt;V:1,C:111,@1.1.2.58#, 192.168.1.1, 0, null, 0.0, 0, false" classname="kas.helvar.ReceivedObjectProcessorTest" time="0.001"/>
+  <testcase name="[33] ?V:1,C:111,@1.1.2.58=1#, 192.168.1.1, 0, null, 0.0, 0, false" classname="kas.helvar.ReceivedObjectProcessorTest" time="0.001"/>
   <testcase name="[34] &gt;V:1,C:112,@1.1.2.58#, 192.168.1.1, 0, null, 0.0, 0, false" classname="kas.helvar.ReceivedObjectProcessorTest" time="0.002"/>
-  <testcase name="[35] ?V:1,C:112,@1.1.2.58=1#, 192.168.1.1, 0, null, 0.0, 0, false" classname="kas.helvar.ReceivedObjectProcessorTest" time="0.005"/>
-  <testcase name="[36] &gt;V:1,C:114,@2.2.1.1#, 192.168.1.1, 0, null, 0.0, 0, false" classname="kas.helvar.ReceivedObjectProcessorTest" time="0.002"/>
+  <testcase name="[35] ?V:1,C:112,@1.1.2.58=1#, 192.168.1.1, 0, null, 0.0, 0, false" classname="kas.helvar.ReceivedObjectProcessorTest" time="0.001"/>
+  <testcase name="[36] &gt;V:1,C:114,@2.2.1.1#, 192.168.1.1, 0, null, 0.0, 0, false" classname="kas.helvar.ReceivedObjectProcessorTest" time="0.001"/>
   <testcase name="[37] ?V:1,C:114,@2.2.1.1=1#, 192.168.1.1, 0, null, 0.0, 0, false" classname="kas.helvar.ReceivedObjectProcessorTest" time="0.001"/>
-  <testcase name="[38] &gt;V:1,C:113,@2.2.1.1#, 192.168.1.1, 0, null, 0.0, 0, false" classname="kas.helvar.ReceivedObjectProcessorTest" time="0.003"/>
-  <testcase name="[39] ?V:1,C:113,@2.2.1.1=1#, 192.168.1.1, 0, null, 0.0, 0, false" classname="kas.helvar.ReceivedObjectProcessorTest" time="0.001"/>
-  <testcase name="[40] &gt;V:1,C:129,@1.1.2.58#, 192.168.1.1, 0, null, 0.0, 0, false" classname="kas.helvar.ReceivedObjectProcessorTest" time="0.001"/>
-  <testcase name="[41] ?V:1,C:129,@1.1.2.58=1#, 192.168.1.1, 0, null, 0.0, 0, false" classname="kas.helvar.ReceivedObjectProcessorTest" time="0.001"/>
-  <testcase name="[42] &gt;V:1,C:150,@2.2.1.1.4#, 192.168.1.1, 0, null, 0.0, 0, false" classname="kas.helvar.ReceivedObjectProcessorTest" time="0.001"/>
+  <testcase name="[38] &gt;V:1,C:113,@2.2.1.1#, 192.168.1.1, 0, null, 0.0, 0, false" classname="kas.helvar.ReceivedObjectProcessorTest" time="0.002"/>
+  <testcase name="[39] ?V:1,C:113,@2.2.1.1=1#, 192.168.1.1, 0, null, 0.0, 0, false" classname="kas.helvar.ReceivedObjectProcessorTest" time="0.003"/>
+  <testcase name="[40] &gt;V:1,C:129,@1.1.2.58#, 192.168.1.1, 0, null, 0.0, 0, false" classname="kas.helvar.ReceivedObjectProcessorTest" time="0.002"/>
+  <testcase name="[41] ?V:1,C:129,@1.1.2.58=1#, 192.168.1.1, 0, null, 0.0, 0, false" classname="kas.helvar.ReceivedObjectProcessorTest" time="0.002"/>
+  <testcase name="[42] &gt;V:1,C:150,@2.2.1.1.4#, 192.168.1.1, 0, null, 0.0, 0, false" classname="kas.helvar.ReceivedObjectProcessorTest" time="0.002"/>
   <testcase name="[43] ?V:1,C:150,@2.2.1.1.4=100#, 192.168.1.1, 0, null, 0.0, 0, false" classname="kas.helvar.ReceivedObjectProcessorTest" time="0.001"/>
-  <testcase name="[44] &gt;V:1,C:151,@2.2.1.1.4#, 192.168.1.1, 0, null, 0.0, 0, false" classname="kas.helvar.ReceivedObjectProcessorTest" time="0.001"/>
-  <testcase name="[45] ?V:1,C:151,@2.2.1.1.4=1#, 192.168.1.1, 0, null, 0.0, 0, false" classname="kas.helvar.ReceivedObjectProcessorTest" time="0.004"/>
-  <testcase name="[46] &gt;V:1,C:152,@1.1.2.15#, 192.168.1.1, 0, null, 0.0, 0, false" classname="kas.helvar.ReceivedObjectProcessorTest" time="0.001"/>
-  <testcase name="[47] ?V:1,C:152,@1.1.2.15=25#, 192.168.1.1, 0, null, 0.0, 0, false" classname="kas.helvar.ReceivedObjectProcessorTest" time="0.003"/>
-  <testcase name="[48] &gt;V:1,C:160,@1.1.2.15#, 192.168.1.1, 0, null, 0.0, 0, false" classname="kas.helvar.ReceivedObjectProcessorTest" time="0.001"/>
+  <testcase name="[44] &gt;V:1,C:151,@2.2.1.1.4#, 192.168.1.1, 0, null, 0.0, 0, false" classname="kas.helvar.ReceivedObjectProcessorTest" time="0.003"/>
+  <testcase name="[45] ?V:1,C:151,@2.2.1.1.4=1#, 192.168.1.1, 0, null, 0.0, 0, false" classname="kas.helvar.ReceivedObjectProcessorTest" time="0.001"/>
+  <testcase name="[46] &gt;V:1,C:152,@1.1.2.15#, 192.168.1.1, 0, null, 0.0, 0, false" classname="kas.helvar.ReceivedObjectProcessorTest" time="0.002"/>
+  <testcase name="[47] ?V:1,C:152,@1.1.2.15=25#, 192.168.1.1, 0, null, 0.0, 0, false" classname="kas.helvar.ReceivedObjectProcessorTest" time="0.002"/>
+  <testcase name="[48] &gt;V:1,C:160,@1.1.2.15#, 192.168.1.1, 0, null, 0.0, 0, false" classname="kas.helvar.ReceivedObjectProcessorTest" time="0.002"/>
   <testcase name="[49] ?V:1,C:160,@1.1.2.15=15#, 192.168.1.1, 0, null, 0.0, 0, false" classname="kas.helvar.ReceivedObjectProcessorTest" time="0.001"/>
-  <testcase name="[50] &gt;V:1,C:161,G:16#, 192.168.1.1, 0, null, 0.0, 0, false" classname="kas.helvar.ReceivedObjectProcessorTest" time="0.001"/>
-  <testcase name="[51] ?V:1,C:161,G:16=105#, 192.168.1.1, 16, ai, 105.0, 1, true" classname="kas.helvar.ReceivedObjectProcessorTest" time="0.012"/>
+  <testcase name="[50] &gt;V:1,C:161,G:16#, 192.168.1.1, 0, null, 0.0, 0, false" classname="kas.helvar.ReceivedObjectProcessorTest" time="0.002"/>
+  <testcase name="[51] ?V:1,C:161,G:16=105#, 192.168.1.1, 16, ai, 105.0, 1, true" classname="kas.helvar.ReceivedObjectProcessorTest" time="0.003"/>
   <testcase name="[52] &gt;V:1,C:170,@1.1.2.15#, 192.168.1.1, 0, null, 0.0, 0, false" classname="kas.helvar.ReceivedObjectProcessorTest" time="0.001"/>
-  <testcase name="[53] ?V:1,C:170,@1.1.2.15=08:00:00 01-Jul-2009#, 192.168.1.1, 0, null, 0.0, 0, false" classname="kas.helvar.ReceivedObjectProcessorTest" time="0.002"/>
-  <testcase name="[54] &gt;V:1,C:171,@1.1.2.15#, 192.168.1.1, 0, null, 0.0, 0, false" classname="kas.helvar.ReceivedObjectProcessorTest" time="0.001"/>
-  <testcase name="[55] ?V:1,C:171,@1.1.2.15=16#, 192.168.1.1, 0, null, 0.0, 0, false" classname="kas.helvar.ReceivedObjectProcessorTest" time="0.001"/>
-  <testcase name="[56] &gt;V:1,C:173,@1.1.2.15#, 192.168.1.1, 0, null, 0.0, 0, false" classname="kas.helvar.ReceivedObjectProcessorTest" time="0.001"/>
+  <testcase name="[53] ?V:1,C:170,@1.1.2.15=08:00:00 01-Jul-2009#, 192.168.1.1, 0, null, 0.0, 0, false" classname="kas.helvar.ReceivedObjectProcessorTest" time="0.001"/>
+  <testcase name="[54] &gt;V:1,C:171,@1.1.2.15#, 192.168.1.1, 0, null, 0.0, 0, false" classname="kas.helvar.ReceivedObjectProcessorTest" time="0.003"/>
+  <testcase name="[55] ?V:1,C:171,@1.1.2.15=16#, 192.168.1.1, 0, null, 0.0, 0, false" classname="kas.helvar.ReceivedObjectProcessorTest" time="0.002"/>
+  <testcase name="[56] &gt;V:1,C:173,@1.1.2.15#, 192.168.1.1, 0, null, 0.0, 0, false" classname="kas.helvar.ReceivedObjectProcessorTest" time="0.002"/>
   <testcase name="[57] ?V:1,C:173,@1.1.2.15=16#, 192.168.1.1, 0, null, 0.0, 0, false" classname="kas.helvar.ReceivedObjectProcessorTest" time="0.001"/>
-  <testcase name="[58] &gt;V:1,C:174,@1.1.2.15#, 192.168.1.1, 0, null, 0.0, 0, false" classname="kas.helvar.ReceivedObjectProcessorTest" time="0.001"/>
-  <testcase name="[59] ?V:1,C:174,@1.1.2.15=40#, 192.168.1.1, 0, null, 0.0, 0, false" classname="kas.helvar.ReceivedObjectProcessorTest" time="0.002"/>
+  <testcase name="[58] &gt;V:1,C:174,@1.1.2.15#, 192.168.1.1, 0, null, 0.0, 0, false" classname="kas.helvar.ReceivedObjectProcessorTest" time="0.002"/>
+  <testcase name="[59] ?V:1,C:174,@1.1.2.15=40#, 192.168.1.1, 0, null, 0.0, 0, false" classname="kas.helvar.ReceivedObjectProcessorTest" time="0.001"/>
   <testcase name="[60] &gt;V:1,C:175,@1.1.2.15#, 192.168.1.1, 0, null, 0.0, 0, false" classname="kas.helvar.ReceivedObjectProcessorTest" time="0.002"/>
   <testcase name="[61] ?V:1,C:175,@1.1.2.15=12#, 192.168.1.1, 0, null, 0.0, 0, false" classname="kas.helvar.ReceivedObjectProcessorTest" time="0.001"/>
-  <testcase name="[62] &gt;V:1,C:176,@1.1.2.15#, 192.168.1.1, 0, null, 0.0, 0, false" classname="kas.helvar.ReceivedObjectProcessorTest" time="0.001"/>
-  <testcase name="[63] ?V:1,C:176,@1.1.2.15=100#, 192.168.1.1, 0, null, 0.0, 0, false" classname="kas.helvar.ReceivedObjectProcessorTest" time="0.001"/>
+  <testcase name="[62] &gt;V:1,C:176,@1.1.2.15#, 192.168.1.1, 0, null, 0.0, 0, false" classname="kas.helvar.ReceivedObjectProcessorTest" time="0.003"/>
+  <testcase name="[63] ?V:1,C:176,@1.1.2.15=100#, 192.168.1.1, 0, null, 0.0, 0, false" classname="kas.helvar.ReceivedObjectProcessorTest" time="0.002"/>
   <testcase name="[64] &gt;V:1,C:185#, 192.168.1.1, 0, null, 0.0, 0, false" classname="kas.helvar.ReceivedObjectProcessorTest" time="0.001"/>
   <testcase name="[65] ?V:1,C:185=1245591399#, 192.168.1.1, 0, null, 0.0, 0, false" classname="kas.helvar.ReceivedObjectProcessorTest" time="0.001"/>
   <testcase name="[66] &gt;V:1,C:186#, 192.168.1.1, 0, null, 0.0, 0, false" classname="kas.helvar.ReceivedObjectProcessorTest" time="0.001"/>
-  <testcase name="[67] ?V:1,C:186=232701#, 192.168.1.1, 0, null, 0.0, 0, false" classname="kas.helvar.ReceivedObjectProcessorTest" time="0.002"/>
+  <testcase name="[67] ?V:1,C:186=232701#, 192.168.1.1, 0, null, 0.0, 0, false" classname="kas.helvar.ReceivedObjectProcessorTest" time="0.001"/>
   <testcase name="[68] &gt;V:1,C:187#, 192.168.1.1, 0, null, 0.0, 0, false" classname="kas.helvar.ReceivedObjectProcessorTest" time="0.001"/>
   <testcase name="[69] ?V:1,C:187=232701#, 192.168.1.1, 0, null, 0.0, 0, false" classname="kas.helvar.ReceivedObjectProcessorTest" time="0.001"/>
-  <testcase name="[70] &gt;V:1,C:188#, 192.168.1.1, 0, null, 0.0, 0, false" classname="kas.helvar.ReceivedObjectProcessorTest" time="0.001"/>
-  <testcase name="[71] ?V:1,C:188=3600#, 192.168.1.1, 0, null, 0.0, 0, false" classname="kas.helvar.ReceivedObjectProcessorTest" time="0.001"/>
-  <testcase name="[72] &gt;V:1,C:189#, 192.168.1.1, 0, null, 0.0, 0, false" classname="kas.helvar.ReceivedObjectProcessorTest" time="0.001"/>
+  <testcase name="[70] &gt;V:1,C:188#, 192.168.1.1, 0, null, 0.0, 0, false" classname="kas.helvar.ReceivedObjectProcessorTest" time="0.002"/>
+  <testcase name="[71] ?V:1,C:188=3600#, 192.168.1.1, 0, null, 0.0, 0, false" classname="kas.helvar.ReceivedObjectProcessorTest" time="0.002"/>
+  <testcase name="[72] &gt;V:1,C:189#, 192.168.1.1, 0, null, 0.0, 0, false" classname="kas.helvar.ReceivedObjectProcessorTest" time="0.002"/>
   <testcase name="[73] ?V:1,C:189=1#, 192.168.1.1, 0, null, 0.0, 0, false" classname="kas.helvar.ReceivedObjectProcessorTest" time="0.001"/>
-  <testcase name="[74] &gt;V:1,C:190#, 192.168.1.1, 0, null, 0.0, 0, false" classname="kas.helvar.ReceivedObjectProcessorTest" time="0.002"/>
-  <testcase name="[75] ?V:1,C:190=67240448#, 192.168.1.1, 0, null, 0.0, 0, false" classname="kas.helvar.ReceivedObjectProcessorTest" time="0.001"/>
-  <testcase name="[76] &gt;V:1,C:191#, 192.168.1.1, 0, null, 0.0, 0, false" classname="kas.helvar.ReceivedObjectProcessorTest" time="0.002"/>
-  <testcase name="[77] ?V:1,C:191=1#, 192.168.1.1, 0, null, 0.0, 0, false" classname="kas.helvar.ReceivedObjectProcessorTest" time="0.001"/>
+  <testcase name="[74] &gt;V:1,C:190#, 192.168.1.1, 0, null, 0.0, 0, false" classname="kas.helvar.ReceivedObjectProcessorTest" time="0.001"/>
+  <testcase name="[75] ?V:1,C:190=67240448#, 192.168.1.1, 0, null, 0.0, 0, false" classname="kas.helvar.ReceivedObjectProcessorTest" time="0.002"/>
+  <testcase name="[76] &gt;V:1,C:191#, 192.168.1.1, 0, null, 0.0, 0, false" classname="kas.helvar.ReceivedObjectProcessorTest" time="0.001"/>
+  <testcase name="[77] ?V:1,C:191=1#, 192.168.1.1, 0, null, 0.0, 0, false" classname="kas.helvar.ReceivedObjectProcessorTest" time="0.002"/>
   <testcase name="[78] &gt;V:1,C:201,G:17,O:1,B:2,S:5,L:75#, 192.168.1.1, 0, null, 0.0, 0, false" classname="kas.helvar.ReceivedObjectProcessorTest" time="0.001"/>
-  <testcase name="[79] &gt;V:1,C:202,@2.2.1.1,O:1,B:2,S:5,L:75#, 192.168.1.1, 0, null, 0.0, 0, false" classname="kas.helvar.ReceivedObjectProcessorTest" time="0.0"/>
+  <testcase name="[79] &gt;V:1,C:202,@2.2.1.1,O:1,B:2,S:5,L:75#, 192.168.1.1, 0, null, 0.0, 0, false" classname="kas.helvar.ReceivedObjectProcessorTest" time="0.002"/>
   <testcase name="[80] &gt;V:1,C:203,G:17,O:1,B:2,S:5#, 192.168.1.1, 0, null, 0.0, 0, false" classname="kas.helvar.ReceivedObjectProcessorTest" time="0.002"/>
   <testcase name="[81] &gt;V:1,C:204,@2.2.1.1,O:1,B:2,S:5#, 192.168.1.1, 0, null, 0.0, 0, false" classname="kas.helvar.ReceivedObjectProcessorTest" time="0.002"/>
-  <testcase name="[82] &gt;V:1,C:205,G:56#, 192.168.1.1, 0, null, 0.0, 0, false" classname="kas.helvar.ReceivedObjectProcessorTest" time="0.004"/>
-  <testcase name="[83] &gt;V:1,C:206,@8.67.2.37#, 192.168.1.1, 0, null, 0.0, 0, false" classname="kas.helvar.ReceivedObjectProcessorTest" time="0.002"/>
-  <testcase name="[84] &gt;V:1,C:240,T:1245591399,E:232701,N:185100,Z:3600,Y:1#, 192.168.1.1, 0, null, 0.0, 0, false" classname="kas.helvar.ReceivedObjectProcessorTest" time="0.003"/>
-  <testcase name="[85] &gt;V:1,C:241,T:1245591399#, 192.168.1.1, 0, null, 0.0, 0, false" classname="kas.helvar.ReceivedObjectProcessorTest" time="0.003"/>
-  <testcase name="[86] &gt;V:1,C:242,E:232701#, 192.168.1.1, 0, null, 0.0, 0, false" classname="kas.helvar.ReceivedObjectProcessorTest" time="0.002"/>
-  <testcase name="[87] &gt;V:1,C:243,N:185100#, 192.168.1.1, 0, null, 0.0, 0, false" classname="kas.helvar.ReceivedObjectProcessorTest" time="0.003"/>
-  <testcase name="[88] &gt;V:1,C:245,Y:1#, 192.168.1.1, 0, null, 0.0, 0, false" classname="kas.helvar.ReceivedObjectProcessorTest" time="0.003"/>
-  <testcase name="[89] &gt;V:1,C:104,@:2.2.1.1#, 192.168.1.1, 0, null, 0.0, 0, false" classname="kas.helvar.ReceivedObjectProcessorTest" time="0.002"/>
-  <testcase name="[90] !V:1,C:104,@:2.2.1.1=11#, 192.168.1.1, 0, null, 0.0, 0, false" classname="kas.helvar.ReceivedObjectProcessorTest" time="0.003"/>
-  <testcase name="[91] ?V:1,C:103,G:5,B:1=4#, null, 5, av, 4.0, 1, false" classname="kas.helvar.ReceivedObjectProcessorTest" time="0.004"/>
-  <testcase name="[92] &gt;V:1.1,C:11,G:17,K:1,B:1,S:5,F:90#?V:1,C:103,G:17,B:1=5#, 192.168.1.1, 17, av, 5.0, 2, true" classname="kas.helvar.ReceivedObjectProcessorTest" time="0.001"/>
+  <testcase name="[82] &gt;V:1,C:205,G:56#, 192.168.1.1, 0, null, 0.0, 0, false" classname="kas.helvar.ReceivedObjectProcessorTest" time="0.002"/>
+  <testcase name="[83] &gt;V:1,C:206,@8.67.2.37#, 192.168.1.1, 0, null, 0.0, 0, false" classname="kas.helvar.ReceivedObjectProcessorTest" time="0.001"/>
+  <testcase name="[84] &gt;V:1,C:240,T:1245591399,E:232701,N:185100,Z:3600,Y:1#, 192.168.1.1, 0, null, 0.0, 0, false" classname="kas.helvar.ReceivedObjectProcessorTest" time="0.001"/>
+  <testcase name="[85] &gt;V:1,C:241,T:1245591399#, 192.168.1.1, 0, null, 0.0, 0, false" classname="kas.helvar.ReceivedObjectProcessorTest" time="0.001"/>
+  <testcase name="[86] &gt;V:1,C:242,E:232701#, 192.168.1.1, 0, null, 0.0, 0, false" classname="kas.helvar.ReceivedObjectProcessorTest" time="0.001"/>
+  <testcase name="[87] &gt;V:1,C:243,N:185100#, 192.168.1.1, 0, null, 0.0, 0, false" classname="kas.helvar.ReceivedObjectProcessorTest" time="0.002"/>
+  <testcase name="[88] &gt;V:1,C:245,Y:1#, 192.168.1.1, 0, null, 0.0, 0, false" classname="kas.helvar.ReceivedObjectProcessorTest" time="0.001"/>
+  <testcase name="[89] &gt;V:1,C:104,@:2.2.1.1#, 192.168.1.1, 0, null, 0.0, 0, false" classname="kas.helvar.ReceivedObjectProcessorTest" time="0.001"/>
+  <testcase name="[90] !V:1,C:104,@:2.2.1.1=11#, 192.168.1.1, 0, null, 0.0, 0, false" classname="kas.helvar.ReceivedObjectProcessorTest" time="0.001"/>
+  <testcase name="[91] ?V:1,C:103,G:5,B:1=4#, null, 5, av, 4.0, 1, false" classname="kas.helvar.ReceivedObjectProcessorTest" time="0.003"/>
+  <testcase name="[92] &gt;V:1.1,C:11,G:17,K:1,B:1,S:5,F:90#?V:1,C:103,G:17,B:1=5#, 192.168.1.1, 17, av, 5.0, 2, true" classname="kas.helvar.ReceivedObjectProcessorTest" time="0.002"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

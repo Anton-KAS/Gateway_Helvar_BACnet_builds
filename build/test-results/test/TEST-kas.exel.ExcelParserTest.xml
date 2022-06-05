@@ -1,33 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="kas.exel.ExcelParserTest" tests="27" skipped="0" failures="0" errors="0" timestamp="2022-06-05T20:47:00" hostname="KAS-DESKTOP" time="1.235">
+<testsuite name="kas.exel.ExcelParserTest" tests="26" skipped="0" failures="0" errors="0" timestamp="2022-06-05T21:04:11" hostname="KAS-DESKTOP" time="0.878">
   <properties/>
-  <testcase name="testParseXlsxToJson()" classname="kas.exel.ExcelParserTest" time="1.06"/>
-  <testcase name="[1] null, false" classname="kas.exel.ExcelParserTest" time="0.02"/>
+  <testcase name="testParseXlsxToJson()" classname="kas.exel.ExcelParserTest" time="0.788"/>
+  <testcase name="[1] null, false" classname="kas.exel.ExcelParserTest" time="0.017"/>
   <testcase name="[2] Any string text, false" classname="kas.exel.ExcelParserTest" time="0.001"/>
   <testcase name="[3] , false" classname="kas.exel.ExcelParserTest" time="0.001"/>
-  <testcase name="[4] 0.0.0.0, false" classname="kas.exel.ExcelParserTest" time="0.004"/>
+  <testcase name="[4] 0.0.0.0, false" classname="kas.exel.ExcelParserTest" time="0.001"/>
   <testcase name="[5] 1.2.3.4, true" classname="kas.exel.ExcelParserTest" time="0.001"/>
-  <testcase name="[6] 01.02.03.04, true" classname="kas.exel.ExcelParserTest" time="0.002"/>
-  <testcase name="[7] 001.002.003.004, true" classname="kas.exel.ExcelParserTest" time="0.0"/>
+  <testcase name="[6] 01.02.03.04, true" classname="kas.exel.ExcelParserTest" time="0.001"/>
+  <testcase name="[7] 001.002.003.004, true" classname="kas.exel.ExcelParserTest" time="0.002"/>
   <testcase name="[8] 0001.0002.0003.0004, false" classname="kas.exel.ExcelParserTest" time="0.001"/>
   <testcase name="[9] 0011.0022.0033.0044, false" classname="kas.exel.ExcelParserTest" time="0.001"/>
-  <testcase name="[10] 0111.0222.0333.0444, false" classname="kas.exel.ExcelParserTest" time="0.002"/>
-  <testcase name="[11] 1111.2222.3333.4444, false" classname="kas.exel.ExcelParserTest" time="0.003"/>
-  <testcase name="[12] 11.22.33.44, true" classname="kas.exel.ExcelParserTest" time="0.001"/>
-  <testcase name="[13] 254.254.254.254, true" classname="kas.exel.ExcelParserTest" time="0.001"/>
-  <testcase name="[14] 1234.2.3.4, false" classname="kas.exel.ExcelParserTest" time="0.002"/>
-  <testcase name="[15] 1.1234.3.4, false" classname="kas.exel.ExcelParserTest" time="0.003"/>
+  <testcase name="[10] 0111.0222.0333.0444, false" classname="kas.exel.ExcelParserTest" time="0.001"/>
+  <testcase name="[11] 1111.2222.3333.4444, false" classname="kas.exel.ExcelParserTest" time="0.001"/>
+  <testcase name="[12] 11.22.33.44, true" classname="kas.exel.ExcelParserTest" time="0.002"/>
+  <testcase name="[13] 254.254.254.254, true" classname="kas.exel.ExcelParserTest" time="0.002"/>
+  <testcase name="[14] 1234.2.3.4, false" classname="kas.exel.ExcelParserTest" time="0.001"/>
+  <testcase name="[15] 1.1234.3.4, false" classname="kas.exel.ExcelParserTest" time="0.002"/>
   <testcase name="[16] 1.2.1234.4, false" classname="kas.exel.ExcelParserTest" time="0.001"/>
-  <testcase name="[17] 1.2.3.1234, false" classname="kas.exel.ExcelParserTest" time="0.001"/>
+  <testcase name="[17] 1.2.3.1234, false" classname="kas.exel.ExcelParserTest" time="0.0"/>
   <testcase name="[18] 1.2.3., false" classname="kas.exel.ExcelParserTest" time="0.001"/>
   <testcase name="[19] 1.2.3.4.5, false" classname="kas.exel.ExcelParserTest" time="0.001"/>
-  <testcase name="[20] 1.2.3..4, false" classname="kas.exel.ExcelParserTest" time="0.0"/>
-  <testcase name="[21] 255.2.3.4, false" classname="kas.exel.ExcelParserTest" time="0.001"/>
+  <testcase name="[20] 1.2.3..4, false" classname="kas.exel.ExcelParserTest" time="0.001"/>
+  <testcase name="[21] 255.2.3.4, false" classname="kas.exel.ExcelParserTest" time="0.0"/>
   <testcase name="[22] 1.255.3.4, false" classname="kas.exel.ExcelParserTest" time="0.0"/>
   <testcase name="[23] 1.2.255.4, false" classname="kas.exel.ExcelParserTest" time="0.001"/>
   <testcase name="[24] 1.2.3.255, false" classname="kas.exel.ExcelParserTest" time="0.001"/>
   <testcase name="[25] 255.255.255.255, false" classname="kas.exel.ExcelParserTest" time="0.001"/>
-  <testcase name="testRealParseXlsxToJson()" classname="kas.exel.ExcelParserTest" time="0.07"/>
   <system-out><![CDATA[tests started
 test started
 FILE PATH .\src\test\resources\kas\excel\TestConfigPoints.xlsx
@@ -82,10 +81,6 @@ test completed
 test started
 test completed
 test started
-test completed
-test started
-FILE PATH .\src\test\resources\kas\excel\TestConfigPoints.xlsx
-{"10.119.140.87":{"PORT_CONTROLLER":50000,"STATUS":false,"Points":{"286":{"HELVAR_GROUP":286,"DIMMING":true,"ROOM":"2.20.1","ELECTRIC_GROUP":"33D"},"287":{"HELVAR_GROUP":287,"DIMMING":true,"ROOM":"2.20.2","ELECTRIC_GROUP":"34D"},"257":{"HELVAR_GROUP":257,"DIMMING":false,"ROOM":"2.15","ELECTRIC_GROUP":"20, A20"}},"IP_CONTROLLER":"10.119.140.87","LIGHT_PANEL":"ЩО-2.1"},"10.119.140.86":{"PORT_CONTROLLER":50000,"STATUS":false,"Points":{"1":{"HELVAR_GROUP":1,"DIMMING":false,"ROOM":"1.1","ELECTRIC_GROUP":"1, A1"},"2":{"HELVAR_GROUP":2,"DIMMING":true,"ROOM":"1.2","ELECTRIC_GROUP":"2"},"3":{"HELVAR_GROUP":3,"DIMMING":true,"ROOM":"1.2","ELECTRIC_GROUP":"3"}},"IP_CONTROLLER":"10.119.140.86","LIGHT_PANEL":"ЩО-2.1"}}
 test completed
 tests completed
 ]]></system-out>

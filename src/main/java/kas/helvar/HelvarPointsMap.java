@@ -23,14 +23,26 @@ public enum HelvarPointsMap implements SetValueFromHelvarNet{
             String ipController = (String) controller.get(DefaultHeader.IP_CONTROLLER.toString());
             //long longPortController = (long) controller.get(DefaultHeader.PORT_CONTROLLER.toString());
             //int portController = (int) longPortController;
-            int portController = (int) controller.get(DefaultHeader.PORT_CONTROLLER.toString());
+            int portController;
+            try {
+                portController = (int) controller.get(DefaultHeader.PORT_CONTROLLER.toString());
+            } catch (ClassCastException cce) {
+                long longPortController = (long) controller.get(DefaultHeader.PORT_CONTROLLER.toString());
+                portController = (int) longPortController;
+            }
             JSONObject points = (JSONObject) controller.get("Points");
             for (Object p : points.keySet()) {
                 String pKey = (String) p;
                 JSONObject point = (JSONObject) points.get(pKey);
                 //long longInstanceNumber = (long) point.get("HELVAR_GROUP");
                 //int instanceNumber = (int) longInstanceNumber;
-                int instanceNumber = (int) point.get("HELVAR_GROUP");
+                int instanceNumber;
+                try {
+                    instanceNumber = (int) point.get("HELVAR_GROUP");
+                } catch (ClassCastException cce) {
+                    long longInstanceNumber = (long) point.get("HELVAR_GROUP");
+                    instanceNumber = (int) longInstanceNumber;
+                }
 
                 String description = String.format("Helvar point: %s / %s / %s / %s / %s",
                         keyIp,
